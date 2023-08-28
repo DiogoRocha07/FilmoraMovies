@@ -48,7 +48,7 @@ function Home() {
                 src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`}
                 alt={filme.title}
               />
-              <Link to={`/filme/${filme.id}`}>Access</Link>
+              <Link to={`/filme/${filme.id}`}>Detalhes Filme</Link>
             </article>
           );
         })}
